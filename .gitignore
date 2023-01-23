@@ -1,5 +1,5 @@
-creds/*
+# creds/*
 dist
-matches/*
+# matches/*
 node_modules
 .DS_Store
