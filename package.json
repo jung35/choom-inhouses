@@ -1,0 +1,29 @@
+{
+  "name": "track",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "module": "esnext",
+  "scripts": {
+    "watch": "tsc -w",
+    "scrape": "node dist/scrape.js",
+    "compiledData": "node dist/compiledData.js",
+    "types": "node dist/getTypes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "google-spreadsheet": "^3.3.0",
+    "puppeteer": "^19.6.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^4.9.4"
+  }
+}
