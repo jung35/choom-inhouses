@@ -2,3 +2,4 @@ creds/*
 dist
 matches/*
 node_modules
+.DS_Store
